@@ -47,7 +47,7 @@ python camCapture.py
 ```
 
 - Press the SPACE key to browse the saved images
-- The camera.json file is saved after the execution
+- The _camera.json_ file is saved after the execution
 
 1. Capture the ArUCo markers using the calibrated camera.
 
@@ -68,6 +68,8 @@ You can use [this website](https://chev.me/arucogen/) to generate and print Ar
 ```python
 python aruco_gen_page.py -o "aruco_markers.png" -i 0 -d 72 --write-id -x 3 -y 4
 ```
+![fig1](/Python/ArUco/aruco_markers50.png)
+
 
 ## Install Processing Environment
 
