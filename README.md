@@ -1,11 +1,13 @@
 # Fiducial_PythonToProcessing_OSC
 
 ArUco Fiducial Marker Detection in OpenCV using Python, then send the results to Processing via OSC protocol.
+
 by Rong-Hao Liang: r.liang@tue.nl
 
 ==
 Update (Sep 27, 2023)
 - Tested with opencv-python ver. 4.6.0.66 and Processing 4.2
+  
 ==
 
 ArUco tags are a type of fiducial marker often used in computer vision applications for camera-based localization and tracking. 
