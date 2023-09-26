@@ -32,6 +32,8 @@ python camCapture.py
 ```
 
 - Prepare the checkerboard pattern
+- ![My Image](/Python/ArUco/calibPattern.png)
+
 - Press the SPACE key to save 3-4 snapshots from the camera.
 
 1. Load the camera-captured images and save the calibration data as a JSON file.
