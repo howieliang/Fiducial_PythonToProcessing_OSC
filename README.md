@@ -1,2 +1,2 @@
 # Fiducial_PythonToProcessing_OSC
-ArUCo Fiducial Marker Detection in OpenCV Python and then send to Processing via OSC
+ArUco Fiducial Marker Detection in OpenCV using Python, and then send the results to Processing via OSC protocol.
