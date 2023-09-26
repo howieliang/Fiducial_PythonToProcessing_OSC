@@ -40,7 +40,7 @@ python camCapture.py
 ![fig3](/Python/ArUco/2.jpg)
 ![fig4](/Python/ArUco/3.jpg)
 
-1. Load the camera-captured images and save the calibration data as a JSON file.
+2. Load the camera-captured images and save the calibration data as a JSON file.
 
 ```bash
 python camCapture.py
@@ -49,7 +49,7 @@ python camCapture.py
 - Press the SPACE key to browse the saved images
 - The _camera.json_ file is saved after the execution
 
-1. Capture the ArUCo markers using the calibrated camera.
+3. Capture the ArUCo markers using the calibrated camera.
 
 ```bash
 python main.py
