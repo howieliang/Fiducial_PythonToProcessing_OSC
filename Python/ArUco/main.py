@@ -16,7 +16,7 @@ import time  # Import time library for measuring FPS
 client = udp_client.SimpleUDPClient("127.0.0.1", 9000)  # Define the IP address and port of the receiver
 
 # Initialize the camera capture
-cap = cv2.VideoCapture(1)  # Initialize a video capture object with the default camera (0)
+cap = cv2.VideoCapture(0)  # Initialize a video capture object with the default camera (0)
 
 # Initialize variables for measuring FPS (Frames Per Second)
 fps = 0
@@ -26,8 +26,8 @@ prev_time = time.time()  # Get the current time as the previous time
 print(cv2.__version__)
 
 # Define the marker size in meters (adjust according to your marker size)
-# aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_APRILTAG_36h11)
 aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_ARUCO_ORIGINAL)
+# aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_APRILTAG_36h11)
 parameters = cv2.aruco.DetectorParameters_create()
 marker_size = 0.01  # Define the size of the ArUco marker in meters
 
