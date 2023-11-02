@@ -70,6 +70,7 @@ while True:
         fps = 1 / elapsed_time
     prev_time = current_time
 
+    # Lens correction based on calibration data
     frame = cv2.undistort(frame, cameraMatrix, distCoeffs)
     
     # Display FPS on the frame
