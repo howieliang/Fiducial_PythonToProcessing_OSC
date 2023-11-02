@@ -8,7 +8,7 @@
 import cv2  # Import the OpenCV library
 
 # Initialize the camera capture
-cap = cv2.VideoCapture(1)  # Create a VideoCapture object to access the default camera (usually the built-in webcam)
+cap = cv2.VideoCapture(0)  # Create a VideoCapture object to access the default camera (usually the built-in webcam)
 id = 0  # Initialize a variable to keep track of the captured image IDs
 
 while True:  # Start an infinite loop for continuously capturing frames from the camera
