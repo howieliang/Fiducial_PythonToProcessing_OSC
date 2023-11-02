@@ -70,6 +70,8 @@ while True:
         fps = 1 / elapsed_time
     prev_time = current_time
 
+    frame = cv2.undistort(frame, cameraMatrix, distCoeffs)
+    
     # Display FPS on the frame
     cv2.putText(frame, f'FPS: {int(fps)}', (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
@@ -102,9 +104,6 @@ while True:
 
     # Display the frame with detected markers and axes
     cv2.imshow('ArUco Marker Detection', frame)
-
-    # Print the current FPS to the console
-    print(fps)
 
     # Exit the program when the 'q' key is pressed
     if cv2.waitKey(1) & 0xFF == ord('q'):
