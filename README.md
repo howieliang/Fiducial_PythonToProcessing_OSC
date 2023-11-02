@@ -20,7 +20,6 @@ conda create --name p39 python=3.9
 conda activate p39
 pip install opencv-contrib-python==4.6.0.66
 pip install python-osc
-cd Python/ArUco
 ```
 
 ## **Camera Calibration**
@@ -43,7 +42,7 @@ python camCapture.py
 2. Load the camera-captured images and save the calibration data as a JSON file.
 
 ```bash
-python camCapture.py
+python camCalib.py
 ```
 
 - Press the SPACE key to browse the saved images
